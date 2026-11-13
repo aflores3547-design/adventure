@@ -52,9 +52,9 @@ private:
         }
         int max = -1;
         for (int i = 0; i < scene->getNumChoices(); i++) {
-            int height = height(scene->getChoice(i));
-            if (height > max) {
-                max = height;
+            int heightnum = height(scene->getChoice(i));
+            if (heightnum > max) {
+                max = heightnum;
             }
         }
         return 1 + max;

@@ -1,6 +1,90 @@
 START_HP 10
-SCENE Replace this file with your own story.
+SCENE You eat pizza on a roof. Three city alarms ring suddenly.
 HP 0
 LOOT 0
+ITEM Grappling Hook
+CHOICES 3
+LABEL Dash toward the loud bank alarm
+SCENE The vault door is open. The masked guys grab some cash.
+HP -4
+LOOT 8
+ITEM Gold Coin
+CHOICES 2
+LABEL Grab the heavy sack of diamonds
+SCENE Bad move. A trap door drops you into some spikes.
+HP -12
+LOOT 10
 ITEM none
+CHOICES 0
+LABEL Lock the vault door from the outside
+SCENE You trap the thieves. You leave before cops arrive.
+HP -2
+LOOT 2
+ITEM Silver Badge
+CHOICES 0
+LABEL Follow the green smoke into a dark alley
+SCENE You land in the alley. A steel door is open.
+HP -1
+LOOT 2
+ITEM Lab Keycard
+CHOICES 2
+LABEL Kick the door and run inside
+SCENE A laser grid trips. It knocks you out.
+HP -9
+LOOT 0
+ITEM none
+CHOICES 0
+LABEL Sneak along the ceiling pipes
+SCENE You spot a gang. They load glowing crates.
+HP 0
+LOOT 4
+ITEM Mini Tracker
+CHOICES 3
+LABEL Drop down and fight everyone
+SCENE The boss blocks your hit. He throws you into the boxes.
+HP -10
+LOOT 1
+ITEM none
+CHOICES 0
+LABEL Slip into the office for files
+SCENE You grab the map. A drone cuts your arm.
+HP -3
+LOOT 5
+ITEM Secret Map
+CHOICES 2
+LABEL Race straight to the river bridge
+SCENE You block the truck tires. Your arm still hurts.
+HP -1
+LOOT 6
+ITEM Tire Spike
+CHOICES 0
+LABEL Stop at a street cart for food
+SCENE Hot noodles heal you up. Your tracker finds their base.
+HP 4
+LOOT 6
+ITEM Noodle Bowl
+CHOICES 2
+LABEL Sneak in through the roof vent
+SCENE You take the crates. You head home for dinner.
+HP 0
+LOOT 10
+ITEM Hero Note
+CHOICES 0
+LABEL Crash through the roof window
+SCENE The guards shoot at once. You grab one crate and run.
+HP -5
+LOOT 4
+ITEM Cracked Visor
+CHOICES 0
+LABEL Tag the truck and go home
+SCENE You track them from home. The fight waits until tomorrow.
+HP 3
+LOOT 3
+ITEM Game Pad
+CHOICES 0
+LABEL Help a kid get his bike
+SCENE You lift a fallen branch. The kid shares his soda.
+HP 2
+LOOT 1
+ITEM Cold Soda
 CHOICES 0
